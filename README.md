@@ -7,12 +7,11 @@ Explicación del código:\\
 El archivo "Creacion_grafos" esta configurado para crear un grafo de cada tipo, pero en los experimentos se usaron 100.\\
 
 En la carpeta "Experimentacion" se tienen 3 archivos principales,
-\begin{itemize}
+$\begin{itemize}
 \item El archivo "generar_muestras" sólo genera muestras, para que estas sean almacenadas en una ubicación.
 \item El archivo "Experimentacion_con_cargar_muestras_zip" realiza las experimentación cargando las muestras de una ubicación y los resultados de la experimentación de cada grafo la guarda en un dataframe, es decir crea un dataframe para cada grafo con que se realiza la experimentación.
 \item El archivo "experimentacion_sin_cargar_muestras" realiza las experimentación sin necesidad de cargar las muestras, pues este, también las realiza. Además, los resultados de la experimentación de cada grafo la guarda en un dataframe, es decir crea un dataframe para cada grafo con que se realiza la experimentación.
-\end{itemize}
-
+\end{itemize} $
 En la carpeta "graficos" se tienen programas que une los dataframe creados ("Descompresion_dataframe") y los demás muestra de forma gráfica la información obtenida de la fase de experimentación.
 
 Herramientas:\\
